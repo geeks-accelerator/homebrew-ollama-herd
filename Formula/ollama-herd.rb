@@ -3,8 +3,8 @@ class OllamaHerd < Formula
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
   homepage "https://github.com/geeks-accelerator/ollama-herd"
-  url "https://files.pythonhosted.org/packages/24/fb/dfa09899d0a3b3df8cf85d7cfa9f1f95bf2f7b588e5b2ed72964719d200c/ollama_herd-0.5.2.tar.gz"
-  sha256 "767eb8790bba44505a61461515f1ef82484d0db6e265d2cd8e4d5e9e846fe11f"
+  url "https://files.pythonhosted.org/packages/fb/ae/ee8f399e34e602bf90c57a38984960661ddb7c636a0e36d1cad34d809a8e/ollama_herd-0.6.0.tar.gz"
+  sha256 "2c8d69ff6f203ba6450575a7df975a5bdbb758e6d54f9561e560fa72d522906d"
   license "MIT"
 
   depends_on "python@3.12"
@@ -67,6 +67,11 @@ class OllamaHerd < Formula
   resource "ifaddr" do
     url "https://files.pythonhosted.org/packages/e8/ac/fb4c578f4a3256561548cd825646680edcadb9440f3f68add95ade1eb791/ifaddr-0.2.0.tar.gz"
     sha256 "cc0cbfcaabf765d44595825fb96a99bb12c79716b73b44330ea38ee2b0c4aed4"
+  end
+
+  resource "json-repair" do
+    url "https://files.pythonhosted.org/packages/b7/67/eba7fad54ff6f5cce6db4e01f596fc68156b5c7e864af0aa07ad48e880a1/json_repair-0.59.5.tar.gz"
+    sha256 "bb886ee054e99066be8a337b67a986b6a50d79be9a5ad37ae81966e698990784"
   end
 
   resource "markdown-it-py" do
