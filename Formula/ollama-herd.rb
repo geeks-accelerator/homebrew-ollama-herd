@@ -3,8 +3,8 @@ class OllamaHerd < Formula
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
   homepage "https://github.com/geeks-accelerator/ollama-herd"
-  url "https://files.pythonhosted.org/packages/9f/3e/756ba8f1fa25ace7ce657fd8e6c987259719a0c2393ec83f1a02694a09a0/ollama_herd-0.7.0.tar.gz"
-  sha256 "a4f156857e535e7708ef645395f2fd70777d8eb5322c849636a5afa6e28db9e5"
+  url "https://files.pythonhosted.org/packages/f1/a5/21434db6668bf9713ffcc25034ba94933e0c11f83b8eb9198d193e1db9b6/ollama_herd-0.9.0.tar.gz"
+  sha256 "5a8337854ebeb48aad0ec48ec242974257d9cfa225bb2a48ad8aea791d420446"
   license "MIT"
 
   depends_on "python@3.12"
