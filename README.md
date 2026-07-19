@@ -6,6 +6,7 @@ Smart multimodal router for Ollama — LLM inference, image generation, speech-t
 
 ```bash
 brew tap geeks-accelerator/ollama-herd
+brew trust geeks-accelerator/ollama-herd   # Homebrew 6.x requires this for third-party taps
 brew install ollama-herd
 ```
 
