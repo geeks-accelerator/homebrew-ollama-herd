@@ -2,7 +2,7 @@ class OllamaHerd < Formula
   include Language::Python::Virtualenv
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
-  homepage "https://github.com/geeks-accelerator/ollama-herd"
+  homepage "https://ollamaherd.com"
   url "https://files.pythonhosted.org/packages/f1/a5/21434db6668bf9713ffcc25034ba94933e0c11f83b8eb9198d193e1db9b6/ollama_herd-0.9.0.tar.gz"
   sha256 "5a8337854ebeb48aad0ec48ec242974257d9cfa225bb2a48ad8aea791d420446"
   license "MIT"
