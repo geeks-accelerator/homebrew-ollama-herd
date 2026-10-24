@@ -3,8 +3,8 @@ class OllamaHerd < Formula
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
   homepage "https://ollamaherd.com"
-  url "https://files.pythonhosted.org/packages/26/7e/d3fa93892f11288f4e09b487835d45200cb8c5196b04d838b348bab74455/ollama_herd-0.11.3.tar.gz"
-  sha256 "fa0827e6895c19dd7a0eb7376e56671c6d2a768bf1650864acf3905bc2ce9094"
+  url "https://files.pythonhosted.org/packages/7e/fe/3b781603a49e8f59304ea77c77cbe3f84631bd1bd0ecd1cdcfaec1b2d789/ollama_herd-0.11.4.tar.gz"
+  sha256 "681622e72ca8efd0c4350f33f056df500a16673c3e60d25081aa964f5c9ef6a7"
   license "MIT"
 
   depends_on "python@3.12"
@@ -36,8 +36,8 @@ class OllamaHerd < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz"
-    sha256 "035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae"
+    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
+    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
   end
 
   resource "cffi" do
@@ -61,8 +61,8 @@ class OllamaHerd < Formula
   end
 
   resource "fastapi" do
-    url "https://files.pythonhosted.org/packages/9a/40/a212bffb9809afb9a94b250f11e0c29fd8b2589ec92e4bedd1cc7adf9938/fastapi-0.159.1.tar.gz"
-    sha256 "b45b1ec57f3aa4d2f80f09bfbcf068b46764a2ee892e56753f35bb3d9d845ce2"
+    url "https://files.pythonhosted.org/packages/ed/3d/2cc1a0dbc2dac6e157b4ef12bac063e1016cb7c6d7395f76665e439cf1aa/fastapi-0.161.1.tar.gz"
+    sha256 "4076b88434452e20289379068e976c4a04c65ffc8e6be31510106e150a422f0f"
   end
 
   resource "h11" do
@@ -96,8 +96,8 @@ class OllamaHerd < Formula
   end
 
   resource "json_repair" do
-    url "https://files.pythonhosted.org/packages/0b/d8/aed287ba5549e07f9688e88ba3e531cb41c966c6c44980d05e5560020b7b/json_repair-0.64.1.tar.gz"
-    sha256 "7640f80e70c15862ad262cabe91d20afc3248f3187a9811b8c8d0fddd2d62f19"
+    url "https://files.pythonhosted.org/packages/7c/b2/52bdd0fca981b289a4d9966366e1dfe50fac315f2c87440fa70726bdcb69/json_repair-0.64.2.tar.gz"
+    sha256 "3f8e76631edab40e7e0c9b859e64c06992a39488b4bbb8285f0e9c3e61d684e9"
   end
 
   resource "markdown-it-py" do
