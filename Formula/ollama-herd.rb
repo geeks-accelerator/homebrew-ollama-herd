@@ -3,8 +3,8 @@ class OllamaHerd < Formula
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
   homepage "https://ollamaherd.com"
-  url "https://files.pythonhosted.org/packages/b0/d4/9eddb8897e61158cc97ed87d708a8e12f0d7f3a47dc360b2a75205109cef/ollama_herd-0.12.1.tar.gz"
-  sha256 "5b17a75c428b24a49e38b789e63f67f2d56868a5841f2416ec45554134b81f04"
+  url "https://files.pythonhosted.org/packages/fe/10/2fb890158b074716f9affe8df4e7b196b0eeee71be0b7a618a5470a46926/ollama_herd-0.12.2.tar.gz"
+  sha256 "71ac4af9f71f9e50dcb28319760086f4a0670671569dcee2c206363b465df680"
   license "MIT"
 
   depends_on "python@3.12"
@@ -116,8 +116,8 @@ class OllamaHerd < Formula
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/05/ca/7817b4bf0c4b15c6a6ab8cdf4cb96c268335a8ca2f525de93b6ebe4c7d28/pydantic_settings-2.16.1.tar.gz"
-    sha256 "aff602a1886338c2df3d1e958e2193a8dc33cec75b91f202e83fd98484b4b0da"
+    url "https://files.pythonhosted.org/packages/d0/31/21d21e0e38a8f5f7a7f0cde22820117b6d17d6bc36f348129527f915d7f4/pydantic_settings-2.16.2.tar.gz"
+    sha256 "3dc08ffabed2bbd5dc2dd55ead7b78b4e4c5cd776aecd04310db5f1224caaf46"
   end
 
   resource "pydantic_core" do
