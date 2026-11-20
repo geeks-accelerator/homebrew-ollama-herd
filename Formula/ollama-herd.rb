@@ -3,8 +3,8 @@ class OllamaHerd < Formula
 
   desc "Smart multimodal router for Ollama — LLM, image, STT, and embeddings across your device fleet"
   homepage "https://ollamaherd.com"
-  url "https://files.pythonhosted.org/packages/8c/c8/c1faf1a59312ba4c4e2d888ea7b9f1323b10b4eebc87007148b00b8a7862/ollama_herd-0.12.8.tar.gz"
-  sha256 "bdf61810c9d05019c5a3b805f133282457db13cfb6932224fad6dfdebe3a4879"
+  url "https://files.pythonhosted.org/packages/28/05/ac6a87e3e78ad4a6fd27d8966ff549e8f1adc2e98bed71c949972d2e3d49/ollama_herd-0.12.9.tar.gz"
+  sha256 "f30373bd22f171dc93e5442df18c6a3a26209536954519a766248355afccc1e6"
   license "MIT"
 
   depends_on "python@3.12"
@@ -51,8 +51,8 @@ class OllamaHerd < Formula
   end
 
   resource "fastapi" do
-    url "https://files.pythonhosted.org/packages/4b/9f/d0e353b6c275329d17b1c926db48003e1276879855e8b6c87eb9d57907ad/fastapi-0.164.0.tar.gz"
-    sha256 "3db1b4b146924d284b33bd6b9ca244c8bd0560d5e3526591447fd3abe4383989"
+    url "https://files.pythonhosted.org/packages/27/f9/e7820ef181026fea100bde02d811445bf8e883362d7092b6928767147056/fastapi-0.165.0.tar.gz"
+    sha256 "dd94d4128319c1e1d50535ab023ab698f850a4d2822f0e181747b46f4ff3c0ab"
   end
 
   resource "h11" do
@@ -146,8 +146,8 @@ class OllamaHerd < Formula
   end
 
   resource "regex" do
-    url "https://files.pythonhosted.org/packages/33/45/792b86c989c23c26031f758c7f3c4b578689b43936e96d86e59757e9410a/regex-2026.11.18.tar.gz"
-    sha256 "a408377998ab0fad811772c683ccbf6f4a0365a35a23b4fb2b2c67a8d8283b93"
+    url "https://files.pythonhosted.org/packages/b8/17/ef8c46a9e7cf2304968eb260f594bbd4220fab6281e64c090cdd85884511/regex-2026.11.19.tar.gz"
+    sha256 "2826a006b68acfd3ed5074433caafe21d7f9d026eb82cb856724a4a893a70915"
   end
 
   resource "requests" do
